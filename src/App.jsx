@@ -1,9 +1,10 @@
-import { useState } from "react";
+import NavbarMenu from "./components/NavbarMenu/NavbarMenu";
+
 function App() {
   return (
-    <>
-      <h1>Hello mother fucker</h1>
-    </>
+    <div>
+      <NavbarMenu />
+    </div>
   );
 }
 
